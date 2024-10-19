@@ -6,8 +6,8 @@ import { Box } from "@mui/material";
 const Index = () => {
   const [autocomplete, setAutocomplete] = React.useState<any>(null);
   const [userCoords, setUserCoords] = React.useState<any>({
-    lat: 32.7766642,
-    lng: -96.79698789999999,
+    lat: 23.7766642,
+    lng: 72.79698789999999,
   });
 
   const onLoads = (autocomplete: any) => {
